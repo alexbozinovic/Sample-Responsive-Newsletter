@@ -1,0 +1,499 @@
+<!--
+	*This is a sample responsive email that I designed for my job. This design,
+    *was rejected so I decided to use it as a sample for my portfolio. This email
+    *will responsively adjust to the iPhone 5s display in both portrait and landscape,
+    *it does not support tablets or android phones.
+    
+    *This email must first be entered into an HTML inliner application to move all of
+    *the stylesheet styles inline and has been tested in Outlook 2010, Gmail web client, 
+    *Yahoo web client, Outlook web client and AOL web client and displays correctly
+    *in all of them.
+    
+    *©Copyright 2014 Alex Bozinovic, All Rights Reserved
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Untitled Document</title>
+        
+        <style type="text/css">
+        
+        	/* /\/\/\/\/\/\/\/\/\/\ RESET STYLES /\/\/\/\/\/\/\/\/\/\ */
+			body { margin: 0; padding: 0; }
+			img {
+				border: 0 none;
+				height: auto;
+				line-height: 100%;
+				outline: none;
+				text-decoration: none;
+			}
+			a img { border: 0 none; }
+			.imageFix { display: block; }
+			table, td { border-collapse: collapse; }
+			table.bodyTable {
+				height: 100% !important;
+				margin: 0;
+				padding: 0;
+				width: 100% !important;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ CLIENT STYLES /\/\/\/\/\/\/\/\/\/\ */
+			.ExternalClass { width: 100%; }
+			.ExternalClass,
+			.ExternalClass p,
+			.ExternalClass span,
+			.ExternalClass font,
+			.ExternalClass td,
+			.ExternalClass div {
+				line-height: 100%;
+			}
+			
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				color: #008DAD !important;
+			}
+			
+			#outlook a { padding: 0; text-decoration: none; }			
+			table { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+			img { -ms-interpolation-mode: bicubic; }
+			body { -webkit-text-size-adjust: 100%; }
+			
+			/* /\/\/\/\/\/\/\/\/\/\ TEMPLATE STYLES /\/\/\/\/\/\/\/\/\/\ */
+			
+			table.topMenu,
+			table.section,
+			table.sectionHead,
+			table.sectionBorder,
+			table.pressList { 
+				width: 640px;
+				margin: 0 auto;
+			}
+			
+			td.orangeStripe { background-color: #FA7701; }
+			td.grayBG {
+				background-color: #f1f1f1;
+				border-bottom: 2px solid #e1e1e1;
+			}
+			
+			td.menuSection { width: 193px; }
+			table.navItem { width: 100%; }
+			table.navItem td a {
+				text-decoration: none;
+				color: #008DAD;
+			}
+			td.banner { width: 134px; text-align: center; }
+			td.textLeft { text-align: left; }
+			td.textRight { text-align: right; }
+			
+			td.cellFonts {
+				font-family: Arial, Verdana, sans-serif;
+				font-size: 14px;
+				color: #777777;
+				line-height: 18pt;
+			}
+			table.rightIMG, table.leftIMG { width: 150px; }
+			table.rightIMG { float: right; }
+			table.leftIMG { float: left; }
+			
+			table.buttonLeft, table.buttonRight, table.buttonMiddle {
+				background-color: #008DAD;
+				border: 0 none;
+				border-radius: 8px;
+			}
+			table.buttonLeft { float: left; }
+			table.buttonRight {float: right; }
+			table.buttonMiddle { margin: 0 auto; }
+			
+			table.buttonAlt { margin: 0 auto; }
+			table.buttonAlt td {
+				border: 2px solid #777777;
+				border-radius: 8px;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 14px;
+				color: #777777;
+			}
+			table.buttonAlt td a {
+				text-decoration: none;
+				color: #777777;
+				font-weight: bold;
+			}
+			
+			a.buttonLink {
+				color: #FFFFFF;
+				text-decoration: none;
+				display: block;
+				font-weight: bold;
+				font-family: Arial, Verdana, sans-serif;
+				font-size: 14px;
+				line-height: 18pt;
+			}
+			
+			td.leftColumn, td.rightColumn {
+				width: 280px;				
+				font-family: Arial, Verdana, sans-serif;
+				font-size: 14px;
+				color: #777777;
+				line-height: 18pt;
+			}
+			td.borderBottom { border-bottom: 1px dotted #cfcfcf; }
+			
+			td.pressIcon { width: 40px; }
+			td.pressTitle { width: 560px; }
+			td.pressTitle a {
+				text-decoration: none;
+				color: #008DAD;
+			}
+			
+			td.footer { background-color: #444444; }
+			td.footerStyle {
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 14px;
+				color: #eeeeee;
+				line-height: 16pt;
+				width: 280px;
+			}
+			td.footerStyle a { color: #eeeeee; }
+			
+			h1 {
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 26px;
+				padding-bottom: 15px;
+				border-bottom: 1px dotted #cfcfcf;
+				margin: 0;
+				width: 100%;
+			}
+			
+			@media only screen and (max-width: 320px) {
+			
+				table[class=topMenu],
+				table[class=section],
+				table[class=sectionHead],
+				table[class=pressList] { 
+					width: 320px !important;
+				}
+				table[class=sectionBorder] { display: none !important; }
+				table[class=sectionHead] td h1 { margin-bottom: 0; }
+				
+				td[class=menuSection] { display: none !important; }
+				td[class=banner] {
+					width: 320px !important;
+					text-align: center !important;
+				}
+				
+				table[class=rightIMG], table[class=leftIMG] {
+					float: none !important;
+					width: 320px !important;
+				}
+				table[class=rightIMG] td, table[class=leftIMG] td { text-align: center !important; }
+				
+				td[class=leftColumn] { float: left !important; }
+				td[class=rightColumn] { float: right !important; }
+				
+				td[class=pressTitle] { width: 280px !important }				
+				td[class=pressIcon] { display: none !important; }
+				
+				td[class=footerStyle] {
+					text-align: center !important;
+					float: left !important;
+				}
+				
+				table[class=buttonLeft], table[class=buttonRight], table[class=buttonMiddle], table[class=buttonAlt] {
+					width: 280px !important;
+					margin: 0 auto !important;
+					float: none !important;
+				}
+				
+				table[class=buttonLeft] td, table[class=buttonRight] td, table[class=buttonMiddle] td, table[class=buttonAlt] td {
+					text-align: center !important;
+				}
+			}
+			
+			@media only screen and (min-width: 361px) and (max-width: 568px) {
+			
+				table[class=topMenu],
+				table[class=section],
+				table[class=sectionHead],
+				table[class=pressList] { 
+					width: 568px !important;
+				}
+				table[class=sectionBorder] { display: none !important; }
+				table[class=sectionHead] td h1 { margin-bottom: 0; }
+				
+				td[class=menuSection] { display: none !important; }
+				td[class=banner] {
+					width: 568px !important;
+					text-align: center !important;
+				}
+				
+				table[class=rightIMG], table[class=leftIMG] {
+					float: none !important;
+					width: 568px !important;
+				}
+				table[class=rightIMG] td, table[class=leftIMG] td { text-align: center !important; }
+				
+				td[class=leftColumn] { float: left !important; }
+				td[class=rightColumn] { float: right !important; }
+				td[class=leftColumn], td[class=rightColumn] {
+					width: 528px !important;
+					text-align:center !important;
+				}
+				
+				td[class=pressTitle] { width: 528px !important }				
+				td[class=pressIcon] { display: none !important; }
+				
+				td[class=footerStyle] {
+					text-align: center !important;
+					float: left !important;
+					width: 528px !important;
+				}
+				
+				table[class=buttonLeft], table[class=buttonRight], table[class=buttonMiddle], table[class=buttonAlt] {
+					width: 528px !important;
+					margin: 0 auto !important;
+					float: none !important;
+				}
+				
+				table[class=buttonLeft] td, table[class=buttonRight] td, table[class=buttonMiddle] td, table[class=buttonAlt] td {
+					text-align: center !important;
+				}
+			}
+			
+		</style>
+        
+    </head>
+    
+    <body topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0">
+    
+    	<table cellspacing="0" cellpadding="0" border="0" align="center" width="100%" class="bodyTable">
+        	<!-- Orange Stripe -->
+        	<tbody><tr>
+            	<td class="orangeStripe" valign="top">&nbsp;</td>
+          	</tr></tbody>
+            <!-- Top Menu -->
+            <tbody><tr>
+            	<td valign="top">
+                
+                	<table cellspacing="0" cellpadding="0" border="0" align="center" width="640" class="topMenu">
+                    	<tbody><tr>
+                            <td valign="top" class="menuSection">
+                            
+                            	<table cellspacing="0" cellpadding="30" border="0" width="100%" class="navItem">
+                                	<tbody><tr>
+                                    	<td class="textRight cellFonts" valign="top"><a href="#" target="_blank">View in Browser</a></td>
+                                   	</tr></tbody>
+                               	</table>
+                            
+                            </td>
+                            <td valign="top" class="banner"><a href="#" target="_blank"><img src="http://i.imgur.com/fsfiZQW.png" width="170" height="133" border="0" alt="Trubiquity Newsletter" /></a></td>
+                            <td valign="top" class="menuSection">
+                            
+                            	<table cellspacing="0" cellpadding="30" border="0" width="100%" class="navItem">
+                                	<tbody><tr>
+                                    	<td class="textLeft cellFonts" valign="top"><a href="#" target="_blank">View in German</a></td>
+                                   	</tr></tbody>
+                               	</table>
+                            
+                            </td>
+                      	</tr></tbody>
+                  	</table>                        
+                
+                </td>
+          	</tr></tbody>
+            <!-- Article #1 -->
+            <tbody><tr>
+            	<td valign="top">
+                
+                	<table cellspacing="0" cellpadding="20" border="0" align="center" width="640" class="section">
+                    	<tbody><tr>
+                        	<td valign="top" class="cellFonts">
+                            
+                            	<h1>Leadership Change at Trubiquity</h1><br />
+                                <table class="rightIMG" cellspacing="0" cellpadding="10" border="0" width="170" align="right">
+                                	<tbody><tr>
+                                    	<td valign="top"><img src="http://i.imgur.com/mVvJRcW.png" width="150" height="172" border="0" alt="Maureen Huber, CEO, Trubiquity" /></td>
+                                   	</tr></tbody>
+                              	</table>
+                            	Maureen Huber has been named CEO of Trubiquity, INC. Maureen looks forward to an exciting 2014 and thanks her colleagues for Trubiquity's continued success in 2013.<br />
+                                <br />
+                                <table class="buttonLeft" cellspacing="0" cellpadding="10" border="0" align="left">
+                                	<tbody><tr>
+                                    	<td valign="middle"><a href="#" class="buttonLink">Read More &raquo;</a></td>
+                                   	</tr></tbody>
+                               	</table>
+                            </td>
+                      	</tr></tbody>
+                  	</table>
+                
+                </td>
+          	</tr></tbody>
+            <!-- Article #2 -->
+            <tbody><tr>
+            	<td class="grayBG" valign="top">
+                
+                	<table cellspacing="0" cellpadding="20" border="0" align="center" width="640" class="section">
+                    	<tbody><tr>
+                        	<td valign="top" class="cellFonts">
+                            
+                            	<h1>Trubiquity Accepts 2013 Automotive Global Supply Chain Award</h1><br />
+                                <table class="leftIMG" cellspacing="0" cellpadding="10" border="0" width="150" align="left">
+                                	<tbody><tr>
+                                    	<td valign="top"><img src="http://i.imgur.com/6jtD2nA.png" width="150" height="172" border="0" alt="Martyn Davies, Vice-President, Trubiquity" /></td>
+                                   	</tr></tbody>
+                              	</table>
+                            	Martyn Davies accepts the 2013 Automotive Global Supply Chain Award in the Innovation Category on November 12th, in London. Trubiquity's TRUcentrix solution was recoginized for it's Production Part Approval Proces (PPAP) capabilities.<br />
+                                <br />
+                                <table class="buttonRight" cellspacing="0" cellpadding="10" border="0" align="right">
+                                	<tbody><tr>
+                                    	<td valign="middle"><a href="#" class="buttonLink">Read More &raquo;</a></td>
+                                   	</tr></tbody>
+                               	</table>
+                            </td>
+                      	</tr></tbody>
+                  	</table>
+                
+                </td>
+          	</tr></tbody>
+            <!-- Upcoming Tradeshows -->
+            <tbody><tr>
+            	<td valign="top">
+                	<table class="sectionHead" width="640" cellpadding="20" cellspacing="0" border="0" align="center">
+                    	<tbody><tr>
+                        	<td valign="top"><h1>Visit us during tradeshow season in 2014:</h1></td>
+                      	</tr></tbody>
+                  	</table>
+                
+                	<table class="section" cellspacing="0" cellpadding="20" border="0" align="center" width="640">
+                    	<tbody><tr>
+                        	<td valign="top" width="320" class="leftColumn">
+                            	<img src="http://i.imgur.com/a1NQfh1.png" width="280" height="158" alt="Collaborate 14" /><br />
+                            	Diam proin natoque, augue mus augue! Nascetur vel mattis et ac nascetur, urna enim est dolor.<br  />
+                                <br />
+                                <table class="buttonMiddle" cellspacing="0" cellpadding="10" border="0" align="center">
+                                	<tbody><tr>
+                                    	<td valign="middle"><a href="#" class="buttonLink">Read More &raquo;</a></td>
+                                   	</tr></tbody>
+                               	</table>
+                            </td>
+                            <td valign="top" width="320" class="rightColumn">
+                            	<img src="http://i.imgur.com/Cbl8OYp.png" width="280" height="158" alt="QAD Explore" /><br />
+                            	Diam proin natoque, augue mus augue! Nascetur vel mattis et ac nascetur, urna enim est dolor.<br  />
+                                <br />
+                                <table class="buttonMiddle" cellspacing="0" cellpadding="10" border="0" align="center">
+                                	<tbody><tr>
+                                    	<td valign="middle"><a href="#" class="buttonLink">Read More &raquo;</a></td>
+                                   	</tr></tbody>
+                               	</table>
+                            </td>
+                      	</tr></tbody>
+                  	</table>
+                    <table class="sectionBorder" cellpadding="0" cellspacing="0" border="0"  align="center" width="640">
+                    	<tbody><tr>
+                        	<td valign="top" class="borderBottom">&nbsp;</td>
+                       	</tr></tbody>
+                        <tbody><tr>
+                        	<td valign="top">&nbsp;</td>
+                       	</tr></tbody>
+                 	</table>
+                    <table class="section" cellspacing="0" cellpadding="20" border="0" align="center" width="640">
+                    	<tbody><tr>
+                        	<td valign="top" width="320" class="leftColumn">
+                            	<img src="http://i.imgur.com/iqW6Fp7.png" width="280" height="158" alt="Inforum 2014" /><br />
+                            	Diam proin natoque, augue mus augue! Nascetur vel mattis et ac nascetur, urna enim est dolor.<br  />
+                                <br />
+                                <table class="buttonMiddle" cellspacing="0" cellpadding="10" border="0" align="center">
+                                	<tbody><tr>
+                                    	<td valign="middle"><a href="#" class="buttonLink">Read More &raquo;</a></td>
+                                   	</tr></tbody>
+                               	</table><br />
+                            </td>
+                            <td valign="top" width="320" class="rightColumn">
+                            	<img src="http://i.imgur.com/RITgVBh.png" width="280" height="158" alt="QAD Explore" /><br />
+                            	Diam proin natoque, augue mus augue! Nascetur vel mattis et ac nascetur, urna enim est dolor.<br  />
+                                <br />
+                                <table class="buttonMiddle" cellspacing="0" cellpadding="10" border="0" align="center">
+                                	<tbody><tr>
+                                    	<td valign="middle"><a href="#" class="buttonLink">Read More &raquo;</a></td>
+                                   	</tr></tbody>
+                               	</table><br />
+                            </td>
+                      	</tr></tbody>
+                  	</table>
+                
+                </td>
+          	</tr></tbody>
+            <!-- Press Release Section -->
+            <tbody><tr>
+            	<td class="grayBG" valign="top">
+                	
+                    <table class="section" cellspacing="0" cellpadding="0" width="640" border="0" align="center">
+                    	<tbody><tr>
+                        	<td valign="top">
+                            
+                            	<table class="sectionHead" cellspacing="0" cellpadding="20" border="0" align="center" width="640">
+                                	<tbody><tr>
+                                    	<td valign="top"><h1>Trubiquity News</h1></td>
+                                   	</tr></tbody>
+                              	</table>
+                                <table class="pressList" cellspacing="0" cellpadding="10" width="640" border="0" align="center">
+                                	<tbody><tr>
+                                    	<td valign="top" class="pressIcon"><img src="http://i.imgur.com/IiS8UF7.png" width="40" height="35" alt="" /></td>
+                                        <td valign="middle" class="pressTitle cellFonts"><a href="#">Trubiquity’s B2B Data Exchange &amp; Collaboration Platform Receives Global Supply Chain Recognition for IT Innovation</a></td>
+                                  	</tr></tbody>
+                                    <tbody><tr>
+                                    	<td valign="top" class="pressIcon"><img src="http://i.imgur.com/IiS8UF7.png" width="40" height="35" alt="" /></td>
+                                        <td valign="middle" class="pressTitle cellFonts"><a href="#">Infor Adds Cloud-Based Integration With Trubiquity Partnership</a></td>
+                                  	</tr></tbody>
+                                    <tbody><tr>
+                                    	<td valign="top" class="pressIcon"><img src="http://i.imgur.com/IiS8UF7.png" width="40" height="35" alt="" /></td>
+                                        <td valign="middle" class="pressTitle cellFonts"><a href="#">Trubiquity’s B2B Data Exchange &amp; Collaboration Platform Receives Global Supply Chain Recognition for IT Innovation</a></td>
+                                  	</tr></tbody>
+                              	</table>
+                        	</td>
+                     	</tr></tbody>
+                 	</table><br />
+                    <table class="buttonAlt" align="center" cellspacing="10" cellpadding="10">
+                    	<tbody><tr>
+                        	<td valign="middle"><a href="#" target="_blank">View More Press Releases</a></td>
+                      	</tr></tbody>
+                  	</table>
+                    <table cellspacing="0" cellpadding="0" width="100%">
+                    	<tbody><tr>
+                        	<td valign="top">&nbsp;</td>
+                       	</tr></tbody>
+                  	</table>
+                </td>
+          	</tr></tbody>
+            
+            <tbody><tr>
+            	<td valign="top" class="footer">
+                
+                	<table class="section" cellspacing="0" cellpadding="20" width="640" border="0" align="center">
+                    	<tbody><tr>
+                        	<td valign="top" class="footerStyle" width="320">
+                            
+                            	Trubiquity, INC<br />
+                                5480 Corporate Dr, Suite 300<br />
+                                Troy, MI 48098 USA<br />
+                                +1 248 833-9000<br />
+                                <a href="#">sales@trubiquity.com</a>
+                            
+                            </td>
+                            <td valign="bottom" class="footerStyle" width="320">
+                            	
+                                <a href="#">Unsubscribe</a> from our emails.
+                       	</tr></tbody>
+                  	</table>
+                                    
+                </td>
+          	</tr></tbody>
+      	</table>
+    <div style="display: none;">%%unsubscribe%%</div>
+    </body>
+</html>
